@@ -1,0 +1,5 @@
+source leaprc.gaff2
+mol = loadMol2 antechamber.mol2
+loadAmberParams antechamber.frcmod
+saveAmberParm mol leap.top leap.crd
+quit

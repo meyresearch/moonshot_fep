@@ -1,0 +1,32 @@
+
+Welcome to antechamber 20.0: molecular input file processor.
+
+acdoctor mode is on: check and diagnose problems in the input file.
+-- Check Format for pdb File --
+   Status: pass
+Info: Determining atomic numbers from atomic symbols which are case sensitive.
+-- Check Unusual Elements --
+   Status: pass
+-- Check Open Valences --
+   Status: pass
+-- Check Geometry --
+      for those bonded   
+      for those not bonded   
+   Status: pass
+-- Check Weird Bonds --
+   Status: pass
+-- Check Number of Units --
+   Status: pass
+acdoctor mode has completed checking the input file.
+
+Running: /home/rzhu/miniconda3/envs/BSS/bin/bondtype -j full -i ANTECHAMBER_BOND_TYPE.AC0 -o ANTECHAMBER_BOND_TYPE.AC -f ac
+
+Running: /home/rzhu/miniconda3/envs/BSS/bin/atomtype -i ANTECHAMBER_AC.AC0 -o ANTECHAMBER_AC.AC -p 2
+Info: Total number of electrons: 150; net charge: 0
+
+Running: /home/rzhu/miniconda3/envs/BSS/bin/sqm -O -i sqm.in -o sqm.out
+
+Running: /home/rzhu/miniconda3/envs/BSS/bin/am1bcc -i ANTECHAMBER_AM1BCC_PRE.AC -o ANTECHAMBER_AM1BCC.AC -f ac -p /home/rzhu/miniconda3/envs/BSS/dat/antechamber/BCCPARM.DAT -s 2 -j 1
+
+Running: /home/rzhu/miniconda3/envs/BSS/bin/atomtype -f ac -p bcc -o ANTECHAMBER_AM1BCC.AC -i ANTECHAMBER_AM1BCC_PRE.AC
+

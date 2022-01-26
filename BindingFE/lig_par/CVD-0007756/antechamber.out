@@ -1,0 +1,18 @@
+
+Welcome to antechamber 20.0: molecular input file processor.
+
+acdoctor mode is on: check and diagnose problems in the input file.
+-- Check Format for pdb File --
+   Status: pass
+Info: Determining atomic numbers from atomic symbols which are case sensitive.
+-- Check Unusual Elements --
+   Status: pass
+-- Check Open Valences --
+   Status: pass
+-- Check Geometry --
+      for those bonded   
+      for those not bonded   
+   Status: pass
+-- Check Weird Bonds --
+   Status: pass
+-- Check Number of Units --

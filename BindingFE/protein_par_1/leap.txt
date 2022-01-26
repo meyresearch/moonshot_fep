@@ -1,0 +1,4 @@
+source leaprc.protein.ff14SB
+mol = loadPdb leap.pdb
+saveAmberParm mol leap.top leap.crd
+quit
