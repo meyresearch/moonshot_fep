@@ -1,8 +1,0 @@
-/home/rzhu/miniconda3/envs/BSS/bin/wrapped_progs/antechamber: Fatal Error!
-This molecule may have more than one unit.
-       antechamber can only handle one unit.  If the input is a single unit
-       then the connectivity is wrong and the geometry may be bad.
-       Please convert your molecule to a mol2 file via:
-       antechamber -j 5 -at sybyl -dr no 
-       And then check your molecule with a visualization program;
-       manually add missing bonds or delete unwanted bonds as appropriate.
