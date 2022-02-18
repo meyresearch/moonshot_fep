@@ -1,1 +1,16 @@
-CVD-0012808 -0.0896 kcal/mol 0.1577 kcal/mol
+Reference ligand CVD-0007756
+CVD-0012808,-0.0370 kcal/mol,0.1977 kcal/mol
+CVD-0015217,2.4316 kcal/mol,0.5216 kcal/mol
+CVD-0018475,-0.3853 kcal/mol,0.4022 kcal/mol
+CVD-0014468,-0.0819 kcal/mol,0.5758 kcal/mol
+CVD-0015336,0.0698 kcal/mol,0.7276 kcal/mol
+CVD-0015032,1.2960 kcal/mol,0.4506 kcal/mol
+CVD-0016352,1.3800 kcal/mol,0.5262 kcal/mol
+CVD-0013967,2.1922 kcal/mol,0.6768 kcal/mol
+CVD-0012809,-1.3130 kcal/mol,0.1785 kcal/mol
+CVD-0015218,0.0244 kcal/mol,0.7870 kcal/mol
+CVD-0016562,-0.0726 kcal/mol,0.2837 kcal/mol
+CVD-0013422,0.9330 kcal/mol,0.5836 kcal/mol
+CVD-0015030,-0.0622 kcal/mol,0.1946 kcal/mol
+CVD-0015041,1.1988 kcal/mol,0.4175 kcal/mol
+CVD-0015038,0.4597 kcal/mol,0.2851 kcal/mol
