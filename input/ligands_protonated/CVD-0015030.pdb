@@ -1,0 +1,74 @@
+HEADER                                                                          
+TITLE     CVD-0015030                                                           
+HETATM    1  O   LIG A 410       8.889   0.834  21.230  1.00 35.75           O  
+HETATM    2  C6  LIG A 410       8.379  -0.229  21.553  1.00 36.10           C  
+HETATM    3  C5  LIG A 410       8.952  -1.154  22.606  1.00 37.00           C  
+HETATM    4  C4  LIG A 410      10.368  -0.740  22.967  1.00 38.10           C  
+HETATM    5  C3  LIG A 410      10.591   0.143  24.000  1.00 38.57           C  
+HETATM    6  C2  LIG A 410      11.873   0.542  24.303  1.00 38.89           C  
+HETATM    7  C1  LIG A 410      12.939   0.060  23.575  1.00 39.08           C  
+HETATM    8  C16 LIG A 410      11.434  -1.228  22.245  1.00 38.59           C  
+HETATM    9  C   LIG A 410      12.718  -0.834  22.546  1.00 39.21           C  
+HETATM   10 CL   LIG A 410      14.047  -1.470  21.617  1.00 39.83          CL  
+HETATM   11  N   LIG A 410       7.244  -0.704  21.016  1.00 35.39           N  
+HETATM   12  C7  LIG A 410       6.527  -0.043  20.012  1.00 34.91           C  
+HETATM   13  C15 LIG A 410       5.400   0.753  20.330  1.00 34.52           C  
+HETATM   14  C14 LIG A 410       4.919   0.913  21.639  1.00 34.33           C  
+HETATM   15  C13 LIG A 410       3.842   1.698  21.888  1.00 34.20           C  
+HETATM   16  C12 LIG A 410       3.189   2.371  20.843  1.00 34.18           C  
+HETATM   17  C11 LIG A 410       3.621   2.242  19.569  1.00 34.23           C  
+HETATM   18  C10 LIG A 410       4.736   1.424  19.285  1.00 34.37           C  
+HETATM   19  C9  LIG A 410       5.185   1.272  17.983  1.00 34.36           C  
+HETATM   20  N1  LIG A 410       6.246   0.489  17.717  1.00 34.47           N1+
+HETATM   21  C8  LIG A 410       6.925  -0.154  18.719  1.00 34.72           C  
+HETATM   22  F   LIG A 410      14.182   0.470  23.873  1.00  0.00           F  
+HETATM   23  H   LIG A 410       8.252  -1.116  23.580  1.00  0.00           H  
+HETATM   24  H1  LIG A 410       8.968  -2.280  22.189  1.00  0.00           H  
+HETATM   25  H2  LIG A 410       9.820   0.500  24.527  1.00  0.00           H  
+HETATM   26  H3  LIG A 410      12.030   1.187  25.051  1.00  0.00           H  
+HETATM   27  H4  LIG A 410      11.273  -1.870  21.495  1.00  0.00           H  
+HETATM   28  H5  LIG A 410       6.918  -1.465  21.316  1.00  0.00           H  
+HETATM   29  H6  LIG A 410       5.376   0.443  22.395  1.00  0.00           H  
+HETATM   30  H7  LIG A 410       3.511   1.801  22.826  1.00  0.00           H  
+HETATM   31  H8  LIG A 410       2.398   2.950  21.043  1.00  0.00           H  
+HETATM   32  H9  LIG A 410       3.151   2.723  18.830  1.00  0.00           H  
+HETATM   33  H10 LIG A 410       4.715   1.743  17.237  1.00  0.00           H  
+HETATM   34  H11 LIG A 410       6.550   0.381  16.770  1.00  0.00           H  
+HETATM   35  H12 LIG A 410       7.723  -0.713  18.495  1.00  0.00           H  
+CONECT    1    2                                                                
+CONECT    2    1    3   11                                                      
+CONECT    3    2    4   23   24                                                 
+CONECT    4    3    5    8                                                      
+CONECT    5    4    6   25                                                      
+CONECT    6    5    7   26                                                      
+CONECT    7    6    9   22                                                      
+CONECT    8    4    9   27                                                      
+CONECT    9    7    8   10                                                      
+CONECT   10    9                                                                
+CONECT   11    2   12   28                                                      
+CONECT   12   11   13   21                                                      
+CONECT   13   12   14   18                                                      
+CONECT   14   13   15   29                                                      
+CONECT   15   14   16   30                                                      
+CONECT   16   15   17   31                                                      
+CONECT   17   16   18   32                                                      
+CONECT   18   13   17   19                                                      
+CONECT   19   18   20   33                                                      
+CONECT   20   19   21   34                                                      
+CONECT   21   12   20   35                                                      
+CONECT   22    7                                                                
+CONECT   23    3                                                                
+CONECT   24    3                                                                
+CONECT   25    5                                                                
+CONECT   26    6                                                                
+CONECT   27    8                                                                
+CONECT   28   11                                                                
+CONECT   29   14                                                                
+CONECT   30   15                                                                
+CONECT   31   16                                                                
+CONECT   32   17                                                                
+CONECT   33   19                                                                
+CONECT   34   20                                                                
+CONECT   35   21                                                                
+MASTER        0    0    0    0    0    0    0    0   35    0   35    0          
+END                                                                             
